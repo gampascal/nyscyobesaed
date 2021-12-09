@@ -18,6 +18,7 @@ a{
     color: white;
 }
 .first{
+    background-image: url(../images/bg.JPG);
     background-size: cover;
     height: 768px;
     text-align: center;
@@ -50,7 +51,7 @@ a{
     border: 2px solid white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    width: 100px;
+    width: 10%;
     text-align: center;
 
    
@@ -58,6 +59,7 @@ a{
     
 }
 .second{
+    
     text-align: center;
     background-color: #ad9760;
     height: 700px;
@@ -66,8 +68,8 @@ a{
 }
 .second h1{
     margin-top: 250px;
-    margin-left: 600px;
-    margin-right: 600px;
+    /* margin-left: 600px;
+    margin-right: 600px; */
     border-top: 4px solid white;
     padding: 10px;
     border-radius: 5px;
@@ -75,10 +77,11 @@ a{
 }
 .second button{
     background-color: white;
-    border: 2px solid black;
+    border: 2px solid white;
+   
 }
 .second button a{
-    color: black;
+    color: #ad9760;
 }
 .pic1{
     background-image: url(../images/parade.JPG);
@@ -89,8 +92,12 @@ a{
     margin-top: -20px;
     
 }
-.pic1 h1{
-    
+.pic1 h1 a{
+    background-color: #fff;
+    color: #ad9760;
+    border: solid 2px #ad9760;
+    padding:10px ;
+    border-radius: 5px;
 }.pic2{
     background-image: url(../images/social.JPG);
     background-size: cover;
@@ -100,8 +107,12 @@ a{
     margin-top: -20px;
     
 }
-.pic2 h1{
-    
+.pic2 h1 a{
+    background-color: #fff;
+    color: #ad9760;
+    border: solid 2px #ad9760;
+    padding:10px ;
+    border-radius: 5px;
 }
 .pic3{
      background-image: url(../images/culture.JPG);
@@ -111,9 +122,14 @@ a{
     color: white;
     margin-top: -20px;
 }
-.pic3 h1{
-    
-}.pic4{
+.pic3 h1 a{
+    background-color: #fff;
+    color: #ad9760;
+    border: solid 2px #ad9760;
+    padding:10px ;
+    border-radius: 5px;
+}
+.pic4{
     margin-top: -20px;
      background-image: url(../images/sport.JPG);
     background-size: cover;
@@ -121,14 +137,18 @@ a{
     text-align: center;
     color: white;
 }
-.pic4 h1{
-   
+.pic4 h1 a{
+    background-color: #fff;
+    color: #ad9760;
+    border: solid 2px #ad9760;
+    padding:10px ;
+    border-radius: 5px;
 }
 .third{
      
 }
 .fourth{
-    height: 300px;
+   
     background-color: #ad9760;
     color: white;
     padding: 70px;
@@ -144,7 +164,30 @@ a{
     background-color:  #ad9760;
     color: white;
 }
+form input{
+background-color: transparent;
+border: none;
+color: white;
+text-align: center;
+width: 300px;
+border-bottom: 2px solid white;
+
+}
+form button{
+    background-color:#fff ;
+    color: #ad9760;
+    border: 2px solid white;
+    width: 150px;
+    border-radius: 5px;
+}
 .navbar-default  .navbar-collapse .navbar-nav
 a:active{
     color: black;
+}
+.abouttext{
+
+    font-size: 2em;
+}
+.pic2 #link{
+    font-size: 2em;
 }
