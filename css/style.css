@@ -62,18 +62,23 @@ a{
     
     text-align: center;
     background-color: #ad9760;
-    height: 700px;
+    
     background-size: cover;
     color: white;
+    padding: 0 10%;
 }
 .second h1{
-    margin-top: 250px;
+    margin-top: 10%;
     /* margin-left: 600px;
     margin-right: 600px; */
-    border-top: 4px solid white;
+    /* border-top: 4px solid white; */
     padding: 10px;
     border-radius: 5px;
    
+}
+.second p{
+
+    font-size: 2em;
 }
 .second button{
     background-color: white;
@@ -84,7 +89,7 @@ a{
     color: #ad9760;
 }
 .pic1{
-    background-image: url(../images/parade.JPG);
+    background-image: url(../images/sware.JPG);
     background-size: cover;
     height: 500px;
     text-align: center;
@@ -99,7 +104,7 @@ a{
     padding:10px ;
     border-radius: 5px;
 }.pic2{
-    background-image: url(../images/social.JPG);
+    background-image: url(../images/culture.JPG);
     background-size: cover;
     height: 500px;
     text-align: center;
@@ -115,7 +120,7 @@ a{
     border-radius: 5px;
 }
 .pic3{
-     background-image: url(../images/culture.JPG);
+     background-image: url(../images/sport\ \(2\).jpg);
     background-size: cover;
     height: 500px;
     text-align: center;
@@ -131,7 +136,7 @@ a{
 }
 .pic4{
     margin-top: -20px;
-     background-image: url(../images/sport.JPG);
+     background-image: url(../images/parade\ \(2\).JPG);
     background-size: cover;
     height: 500px;
     text-align: center;
@@ -184,10 +189,12 @@ form button{
 a:active{
     color: black;
 }
+.aboutsaed{
+    padding: 0 10%;
+
+}
 .abouttext{
 
     font-size: 2em;
-}
-.pic2 #link{
-    font-size: 2em;
+    
 }
